@@ -4,7 +4,8 @@
 
 ### 20.09.26 ~
 성향테스트 페이지 수정중 다시 공부..   
-https://www.youtube.com/watch?v=HKtD3d9C69U&list=PLMWJA4FwmYz0_Lkeafmikle2Mpzt4lqIl
+https://www.youtube.com/watch?v=HKtD3d9C69U&list=PLMWJA4FwmYz0_Lkeafmikle2Mpzt4lqIl   
+https://getbootstrap.com/2.3.2/index.html 
 
 - - -
 ### Bootstrap 이란?   
@@ -15,6 +16,10 @@ Ex) 사이즈를 줄이면 화면 배치도 반응형으로 줄어듦
 "부트스트랩 > 예제"에 예제 코드가 많아서 직접 실행해 볼 수 있다.   
 
 ### 반응형 디자인 웹페이지에 적용하기 *(== Scaffolding)*
+
+### 0. grid
+class="span4"   
+class="span4 offset2"   
 
 ### 1. CSS 이용
 
