@@ -7,6 +7,10 @@
 https://www.youtube.com/watch?v=HKtD3d9C69U&list=PLMWJA4FwmYz0_Lkeafmikle2Mpzt4lqIl   
 https://getbootstrap.com/2.3.2/index.html 
 
+### 20.10.01
+수정 1차 완료   
+https://junistory.blogspot.com/2017/06/n.html   
+https://velog.io/@susu1991/%EB%B0%98%EC%9D%91%ED%98%95-%EB%94%94%EC%9E%90%EC%9D%B8   
 - - -
 ### Bootstrap 이란?   
 : 반응형 웹사이트 프레임워크.   
