@@ -19,9 +19,9 @@ Ex) 사이즈를 줄이면 화면 배치도 반응형으로 줄어듦
 참고. https://getbootstrap.kr/docs/4.5/examples/    
 "부트스트랩 > 예제"에 예제 코드가 많아서 직접 실행해 볼 수 있다.   
 
-### 반응형 디자인 웹페이지에 적용하기 *(== Scaffolding)*
+### 반응형 디자인 웹페이지에 적용하기
 
-### 0. grid
+### 0. Scaffolding
 class="span4"   
 class="span4 offset2"   
 
@@ -49,6 +49,6 @@ class="span4 offset2"
  ```<img src="..." class="img-responsive" alt="Responsive image">```
      
  
- ### 2. 컴포넌트 이용
+ ### 2. Component 이용
  * 드롭다운
  * Navbar (Toggle navigation)
