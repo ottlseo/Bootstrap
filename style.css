@@ -1,0 +1,233 @@
+/*---------------------------------Global Seting------------------------------*/
+/* --- 작년 font ---  적용이 안 됨!! */
+@font-face {
+    font-family: "BMJUAOWEB";
+    src: url("/fonts/BMJUA_otf.otf");
+  } @font-face {
+    font-family: "BATANGWEB";
+    src: url("/fonts/Batang_Regular.woff");
+  }
+
+/* --- 다운받은 font (기존) --- */
+@font-face {
+    font-family: 'NeoDunggeunmo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}@font-face {
+    font-family: 'Recipekorea';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}@font-face {
+    font-family: 'Cafe24Ohsquare';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}@font-face {
+    font-family: 'BBTreeGL';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeGL.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*------------------------------------body------------------------------------*/
+html{font-size: 23px;}
+body {
+    width: 100%; height: 100%; margin: 0 auto; color: black;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}a:link{
+    color: black;
+}a:visited{
+    color: black; text-decoration: none;
+}a:hover{
+    color: hotpink; text-decoration: none;
+}
+/*------------------------header--------------------------*/
+.header{
+    margin: 0;
+    padding: 1rem;
+    background-color: papayawhip;
+}.header a{
+    font-size: 1.45rem;
+    color:hotpink;
+    font-family: "Cafe24Ohsquare";
+}.header p{
+    margin: 0;
+    font-size: 1.3rem;
+    color: black;
+    font-family: "NeoDunggeunmo";
+}
+/*-------------------------main-----------------------*/
+.main{
+    padding: 1rem 1rem 2rem;
+}
+.main-test{
+    padding: 1rem;
+    font-size: 2rem;
+    font-family: "Cafe24Ohsquare";
+}
+.main-description{
+    padding: 1rem;
+    text-align: center;
+}
+.button_start{
+    display: block;
+    width: 16rem;
+    height: 4rem;
+    font-family: 'NeoDunggeunmo';
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: white;
+    background-color:darkgreen;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    border: none;
+}.button_start:hover{
+    color:#fff;
+    background-color: darkcyan;
+}
+/*-----------------------------page------------------------------*/
+#page_number{
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}#page_question{
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+#page_button{
+    padding-bottom: 1rem;
+}
+.button_choose1,.button_choose2{
+    width: 22rem;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 0.7rem;
+    color: black;
+}.button_choose1:hover,.button_choose2:hover{
+    color: hotpink;
+    background-color: pink;
+}
+/*-----------------------------result---------------------------*/
+.result_contents{
+    display: table;
+    margin: 0 auto;
+}.result_contents img{
+    float: left;
+    width: 15rem;
+    height: 15rem;
+    margin: 1.5rem 1.5rem 1.5rem 0;
+}.result_contents div{
+    margin: 0 auto;
+    font-family: "BBTreeGL";
+    font-size: 1.1rem;
+    text-align: center;
+    max-width: 50rem;
+    line-height: 2rem;
+    color: black;
+}.result_contents p{
+    margin: 1rem;
+}.result_contents span{
+    font-weight: bold;
+}
+.result_more p{
+    margin: 0;
+}.result_more img{
+    width: 13rem;
+    height: initial;
+    margin: 0;
+}.result_more a{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.more_event{
+    border: 0.05rem dotted pink;
+    width: 13rem;
+    float: left;
+    margin-right: 2rem;
+}
+.more_goods{
+    border: 0.05rem dotted pink;
+    width: 13rem;
+    float: left;
+}
+
+/*-----------------------------footer----------------------------*/
+.footer{
+    font-size: 10px;
+    color: black;
+    border-top: 1px solid black;
+}
+
+/* ------- media query -------- */
+  /* 모바일 
+    1) #page_question : 패딩 늘리기, 빈 공간들 처리
+    2) 
+  */
+@media(max-width:576px){ 
+    html{font-size: 10px;}
+    .main-test{padding-top: 1rem;}
+    .button_choose1,.button_choose2{
+        width: 24rem;
+        font-size: 0.5rem;
+    }
+    #page_number{
+        padding-top: 2rem;
+    }
+    #page_question{
+        padding: 2rem;
+        font-size: 0.8rem;
+    }
+    #page_button{
+        padding-top: 1rem;
+    }
+    .footer{
+        font-size: 5px;
+    }
+  }
+
+/* --------- twitter Bootstrap --------- */
+  .row {
+    margin-left: -30px;
+    *zoom: 1;
+  }
+  .row:before,
+  .row:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+  .row:after {
+    clear: both;
+  }
+  [class*="span"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 30px;
+  }
+  .container,
+  .navbar-static-top .container,
+  .navbar-fixed-top .container,
+  .navbar-fixed-bottom .container {
+    width: 1170px;
+  }
+  .row-fluid:before,
+  .row-fluid:after {
+    
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+  .row-fluid:after {
+    clear: both;
+  }
+  .container-fluid {
+    padding: 0;
+  }
